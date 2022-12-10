@@ -1,0 +1,51 @@
+.main {
+    height: 100vh;
+}
+.header {
+    height: 70px;
+    margin-bottom: 60px;
+}
+.btn-orange {
+    color: white;
+    background-color: #ff7300;
+    border-color: #ff7300;
+    font-weight: bold;
+}
+.shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.font-size-16 {
+    font-size: 16px;
+}
+.w-cus {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main p {
+        font-size: 16px;
+    }
+    .w-cus {
+        width: 50%;
+    }
+    .btn-res {
+        padding: 0 5px !important;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .main p {
+        font-size: 14px;
+    }
+    .w-cus {
+        width: 100%;
+    }
+    .btn-res {
+        padding: 0 5px !important;
+    }
+}
+
+/* ---------------- Forgotpass.html ----------------- */
+.bg-light-orange {
+    background-color: #ffcab9;
+}
